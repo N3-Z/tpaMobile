@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="backgroundcolor">#fcfcfc</item>
+        <item name="textcolor">#404040</item>
+        <item name="buttoncolor">#202020</item>
+        <item name="barmsg">@color/colorPrimary</item>
+        <item name="bgmessege">#B6EC89</item>
+    </style>
+
+    <!--Night / dark color-->
+    <style name="darkmode" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#202020</item>
+        <item name="colorPrimaryDark">#505050</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="backgroundcolor">#505050</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="buttoncolor">@color/colorPrimary</item>
+        <item name="barmsg">#202020</item>
+        <item name="bgmessege">#ffffff</item>
+
+    </style>
+
+</resources>

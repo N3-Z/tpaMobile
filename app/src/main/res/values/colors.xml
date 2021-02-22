@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e4734f</color>
+    <color name="colorPrimaryDark">#202020</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorSecondary">#cc4165</color>
+
+    <color name="chatbg">#CF95A4</color>
+    <color name="colorDark">#202020</color>
+    <color name="Green">#e4734f</color>
+    <color name="Red">#ed413e</color>
+    <color name="Yellow">#ffe26f</color>
+    <color name="google_color">#DF4930</color>
+
+</resources>

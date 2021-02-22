@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tralala_view_user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgtemplate"
+        android:layout_marginRight="27dp"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_view_username"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="#212121"/>
+
+        <ImageView
+            android:id="@+id/image_view_user"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_view_message_item_layout_chat_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_view_date_time_item_layout_chat_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textAlignment="textEnd"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tralala_view_myself"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="27dp"
+    android:background="@drawable/bgtemplate"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+    <ImageView
+        android:id="@+id/image_view_myself"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/text_view_message_item_layout_chat_my_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#212121" />
+    <TextView
+        android:id="@+id/text_view_date_time_item_layout_chat_my_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textStyle="italic"/>
+</LinearLayout>

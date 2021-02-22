@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FindPartner">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/partnerImg"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/partner_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorDark"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/already_partner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You already add this Partner"
+        android:textAlignment="center"
+        android:textColor="@color/colorDark"
+        android:textSize="12sp" />
+
+
+    <Button
+        android:id="@+id/insertPartner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Add Partner"
+        android:background="@drawable/ok_button"
+        />
+</LinearLayout>

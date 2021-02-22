@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AccountFragment"
+    android:background="?attr/backgroundcolor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/edit_profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <EditText
+            android:id="@+id/edit_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="?attr/textcolor"
+            />
+        <EditText
+            android:id="@+id/edit_profile_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:hint="Username"
+            />
+        <EditText
+            android:id="@+id/edit_profile_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Status"
+            android:textColor="?attr/textcolor"
+            />
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/edit_profile_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:hint="Password"
+            />
+
+        <Button
+            android:id="@+id/edit_profile_updtbtn"
+            android:layout_width="match_parent"
+            android:text="Update"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:background="?attr/buttoncolor"
+            />
+
+        <Switch
+            android:id="@+id/myswitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Night Mode"
+            android:textColor="?attr/textcolor" />
+
+        <Button
+            android:id="@+id/showQRcodebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="?attr/buttoncolor"
+            android:padding="10dp"
+            android:text="Show QR Code"
+            android:textColor="?attr/textcolor" />
+
+        <Button
+            android:id="@+id/LogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/buttoncolor"
+            android:padding="10dp"
+            android:text="Log Out"
+            android:textColor="?attr/textcolor" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ManageProjectActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/uPtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/test_button"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            android:hint="Title" />
+
+
+        <EditText
+            android:id="@+id/uPnotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes"
+            android:background="@drawable/test_button"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Difficulty"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/uprojectDifficulty"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/uEasy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Easy"
+                android:layout_marginRight="25dp"
+                />
+
+            <RadioButton
+                android:id="@+id/uMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium"
+                android:layout_marginRight="25dp"
+                />
+
+            <RadioButton
+                android:id="@+id/uHard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hard"
+                />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/uprojectDeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            android:editable="false"
+            android:focusable="false"
+            android:background="@drawable/test_button"
+            android:hint="Deadline"/>
+
+        <Button
+            android:id="@+id/uProjectBtn"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_button"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/dProjectBtn"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/no_button"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/cupdateProjectBtn"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/test_button"
+            android:text="Cancel" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

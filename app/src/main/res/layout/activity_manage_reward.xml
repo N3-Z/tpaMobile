@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?attr/backgroundcolor"
+    tools:context=".ManageRewardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:orientation="vertical"
+        >
+
+
+    <EditText
+        android:id="@+id/newRtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test_button"
+        android:hint="Title"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"/>
+
+
+    <EditText
+        android:id="@+id/newRnotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test_button"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        android:hint="Notes" />
+
+
+    <EditText
+        android:id="@+id/newRcost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cost"
+        android:background="@drawable/test_button"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/insertRewardBtn"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ok_button"
+        android:text="Create Reward" />
+
+    <Button
+        android:id="@+id/cinsertRewardBtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test_button"
+        android:text="Cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

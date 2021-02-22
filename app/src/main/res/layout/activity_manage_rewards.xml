@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ManageRewardsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:orientation="vertical"
+
+        >
+
+
+    <EditText
+        android:id="@+id/uRtitle"
+        android:layout_width="match_parent"
+        android:background="@drawable/test_button"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        android:hint="Title" />
+
+
+
+
+    <EditText
+        android:id="@+id/uRnotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test_button"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        android:hint="Notes" />
+
+
+
+    <EditText
+        android:id="@+id/uRcost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test_button"
+        android:hint="Cost"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/uRewardBtn"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_button"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/dRewardBtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/no_button"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/cuRewardBtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/test_button"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>
